@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saleem | Java Backend Developer</title>
+
+    <meta name="description" content="Saleem | Java Backend Developer & Content Creator (8000+ Followers). View my projects, skills, and resume.">
+    <meta property="og:title" content="Saleem | Java Backend Developer">
+    <meta property="og:description" content="Passionate Java developer specializing in Spring Boot, REST APIs, and scalable architecture.">
+    <meta property="og:image" content="images/profile.png">
+    <meta property="og:url" content="https://saleemkmg10.github.io/portfolio/">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/profile.png" type="image/png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Saleem 👨‍💻</h2>
+
+        <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
+
+        <ul id="nav-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#life" onclick="toggleMenu()">Beyond Code</a></li>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+
+    <div class="status-badge">
+        <span class="pulse-dot"></span>
+        Available for Work
+    </div>
+
+    <img src="images/profile.png" class="profile" alt="Saleem Profile">
+
+    <h1>Hi, I'm Saleem</h1>
+    <h2 class="typing"></h2>
+
+    <p class="hero-subtitle">Java Backend Developer | Software Engineer | Content Creator</p>
+
+    <div class="social-icons">
+        <a href="https://github.com/Saleemkmg10" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/saleem-1083381bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://instagram.com/i_m_saleem_10" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/8310680931" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <div class="hero-buttons">
+        <a href="#projects">
+            <button class="glow-btn">View My Projects</button>
+        </a>
+        <a href="Resume/Saleem_Resume.pdf" download>
+            <button class="outline-btn">Download Resume</button>
+        </a>
+    </div>
+
+    <div class="scroll-down">
+        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+
+</section>
+
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+
+        <div class="ide-window">
+            <div class="ide-header">
+                <div class="ide-buttons">
+                    <span class="close-btn"></span>
+                    <span class="min-btn"></span>
+                    <span class="max-btn"></span>
+                </div>
+                <div class="ide-title">Saleem.java</div>
+            </div>
+
+            <div class="ide-body">
+                <p><span class="comment">// Who am I?</span></p>
+                <p>I am an aspiring <span class="highlight">Java Backend Developer</span> passionate about building real-world applications and solving complex problems with clean code.</p>
+                <br>
+
+                <p><span class="comment">// My Tech Stack</span></p>
+                <p>I specialize in <span class="highlight">Java, Spring Boot, REST APIs, and Database Management</span>. I love architecting scalable backend systems from the ground up.</p>
+                <br>
+
+                <p><span class="comment">// My Mission</span></p>
+                <p>My goal is to contribute to impactful tech projects while continuing to grow my community of <span class="highlight">8000+ followers</span> at CodeCrafted7.</p>
+            </div>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-badge">
+                <div class="stat-icon"><i class="fas fa-server"></i></div>
+                <div class="stat-info">
+                    <h3>Backend Engineering</h3>
+                    <p>Java & Spring Boot Ecosystem</p>
+                </div>
+            </div>
+
+            <div class="stat-badge">
+                <div class="stat-icon"><i class="fas fa-database"></i></div>
+                <div class="stat-info">
+                    <h3>Data Management</h3>
+                    <p>MySQL, Hibernate & JPA</p>
+                </div>
+            </div>
+
+            <div class="stat-badge">
+                <div class="stat-icon"><i class="fas fa-users"></i></div>
+                <div class="stat-info">
+                    <h3>Community Leader</h3>
+                    <p>8,000+ Devs on CodeCrafted7</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill-grid">
+        <div class="card skill-java">Java</div>
+        <div class="card skill-mysql">MySQL</div>
+        <div class="card skill-spring">Spring Boot</div>
+        <div class="card">Backend Development</div>
+        <div class="card">REST API</div>
+        <div class="card">WebSocket</div>
+        <div class="card">Hibernate</div>
+        <div class="card">JPA</div>
+        <div class="card">HTML & CSS</div>
+        <div class="card">Git & GitHub</div>
+        <div class="card">Vibe Coding</div>
+        <div class="card">AI Tools</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-menu">
+        <button class="active-tab" onclick="showProject('ai', this)">Spring Boot AI Assistant</button>
+        <button onclick="showProject('chat', this)">WebSocket Chat Application</button>
+        <button onclick="showProject('determinant', this)">Visitor Management System</button>
+    </div>
+
+    <div class="projects-container">
+        <div class="project-card project-item" id="ai" style="display: block;">
+            <img src="images/AI_Assistant.jpeg" alt="AI Assistant">
+            <h3>Spring Boot AI Assistant</h3>
+            <p>AI-powered backend assistant built using Java and Spring Boot that processes user queries and returns intelligent responses.</p>
+            <p class="tech">Java | Spring Boot | REST API | AI Integration</p>
+            <br>
+            <a href="https://github.com/Saleemkmg10/Springboot-AI-Assistant.git" target="_blank" rel="noopener noreferrer" class="github-btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card project-item" id="chat">
+            <img src="images/Chat_APP.jpeg" alt="Chat Application">
+            <h3>WebSocket Chat Application</h3>
+            <p>Real-time chat system built using Spring Boot WebSocket enabling instant messaging between multiple users.</p>
+            <p class="tech">Java | Spring Boot | WebSocket</p>
+            <br>
+            <a href="https://github.com/Saleemkmg10/Websocket-Chat-App.git" target="_blank" rel="noopener noreferrer" class="github-btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card project-item" id="determinant">
+            <img src="images/VMS.jpeg" alt="Visitor Management System">
+            <h3>Visitor Management System</h3>
+            <p>A real-time visitor tracking system with host approval, self-service visitor check-in, and WebSocket notifications.</p>
+            <p class="tech">Java | Spring boot | MySQL | JPA | WebSocket</p>
+            <br>
+        </div>
+    </div>
+</section>
+
+<section id="life">
+    <h2 class="section-title">Beyond the Code</h2>
+
+    <div class="life-container">
+        <div class="life-card">
+            <i class="fas fa-users life-icon"></i>
+            <h3>CodeCrafted7</h3>
+            <p>I run a coding community with over <span class="followers">8,000+ followers</span>, breaking down complex programming concepts using movies and real-life storytelling.</p>
+        </div>
+
+        <div class="life-card">
+            <i class="fas fa-rocket life-icon"></i>
+            <h3>HustleFuelDaily.in</h3>
+            <p>A platform I manage dedicated to sharing daily motivation, discipline, and growth mindset content for ambitious creators and developers.</p>
+        </div>
+
+        <div class="life-card">
+            <i class="fas fa-mountain life-icon"></i>
+            <h3>Off-Screen</h3>
+            <p>When I step away from the keyboard, you'll usually find me exploring the misty hills and fog of Chikmagalur, or unwinding with a good book and a classic love story.</p>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-container">
+        <div class="education-card">
+            <h3>Master of Science (MSc)</h3>
+            <p class="Specialization">Computer Science</p>
+            <p class="college">Kuvempu University Shankaraghatta</p>
+            <p class="details">2022 – 2024</p>
+            <p class="grade">Grade: Distinction</p>
+        </div>
+
+        <div class="education-card">
+            <h3>Bachelor of Science (BSc)</h3>
+            <p class="Specialization">Computer Science</p>
+            <p class="college">Government First Grade College Thirthahalli</p>
+            <p class="details">2019 – 2022</p>
+            <p class="grade">Grade: Distinction</p>
+        </div>
+
+        <div class="education-card">
+            <h3>PUC (12th)</h3>
+            <p class="college">Government Junior PU College Thirthahalli</p>
+            <p class="details">2017 – 2019</p>
+            <p class="grade">Stream: Science (PCMB)</p>
+        </div>
+
+        <div class="education-card">
+            <h3>Secondary School (10th)</h3>
+            <p class="college">Government High School Kudumallige</p>
+            <p class="details">2017</p>
+            <p class="grade">Board: State Board</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Let's Build Something Together 🚀</h2>
+
+    <div class="contact-wrapper">
+        <div class="contact-left">
+            <p class="contact-text">I'm currently seeking roles as a Java Backend Developer. Whether you have an opportunity, a project idea, or just want to say hi, my inbox is always open.</p>
+
+            <div class="contact-buttons" style="margin-top: 20px;">
+                <a href="mailto:saleemkmg.dev@gmail.com" class="contact-btn">📧 Email</a>
+                <a href="https://wa.me/8310680931" target="_blank" class="contact-btn">💬 WhatsApp</a>
+                <a href="https://linkedin.com/in/saleem-1083381bb/" target="_blank" class="contact-btn">🔗 LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <form id="contactForm">
+                <input type="hidden" name="access_key" value="130b244b-3ed0-48ec-b6c1-ab249ba9a062">
+
+                <div class="input-group">
+                    <input type="text" name="name" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" required>
+                    <label>Your Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea rows="4" name="message" required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <button type="submit" class="send-btn">Send Message 🚀</button>
+
+                <p id="formStatus" class="form-status"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<footer>
+    <p>© 2026 Saleem | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
